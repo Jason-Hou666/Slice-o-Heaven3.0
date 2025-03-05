@@ -16,10 +16,8 @@ public class App {
 
         System.out.println("Custom Order Total : " + String.format("%.2f", sliceoheavenorder2.getOrderTotal()));
 
-        // 示例：处理卡支付
         sliceoheavenorder2.processCardPayment("12345678901234", "3/3", 666);
 
-        // 示例：特价披萨
         sliceoheavenorder2.specialOfTheDay("Pizza1", "Side1", "RMB15.00");
     }
 }
